@@ -16,7 +16,7 @@ import java.net.URL;
  * JavaFX App
  */
 public class App extends Application{
-
+g
     @Override
     public void start(Stage stage) throws IOException {
         URL url = new File("<REPLACE_BY_PROJECT_PATH>/ProjektSEW2025/src/main/java/com.example.projektsew2025/main.fxml").toURI().toURL();
