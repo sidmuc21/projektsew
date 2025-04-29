@@ -3,6 +3,6 @@ module com.example.projektsew2025 {
     requires javafx.fxml;
 
 
-    opens com.example.projektsew2025 to javafx.fxml;
-    exports com.example.projektsew2025;
+    opens projektsew2025 to javafx.fxml;
+    exports projektsew2025;
 }

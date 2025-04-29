@@ -1,4 +1,4 @@
-package com.example.projektsew2025;
+package projektsew2025;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -16,10 +16,9 @@ import java.net.URL;
  * JavaFX App
  */
 public class App extends Application{
-g
     @Override
     public void start(Stage stage) throws IOException {
-        URL url = new File("<REPLACE_BY_PROJECT_PATH>/ProjektSEW2025/src/main/java/com.example.projektsew2025/main.fxml").toURI().toURL();
+        URL url = new File("<REPLACE_BY_PROJECT_PATH>/ProjektSEW2025/src/main/java/projektsew2025/main.fxml").toURI().toURL();
         Parent root = FXMLLoader.load(url);
         stage.setTitle("Memory Game");
         stage.setScene(new Scene(root));

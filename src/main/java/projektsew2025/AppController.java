@@ -1,4 +1,4 @@
-package com.example.projektsew2025;
+package projektsew2025;
 
 import javafx.fxml.FXML;
 import javafx.scene.Node;
@@ -27,7 +27,7 @@ public class AppController {
         for (int row = 0; row < 6; row++) {
             for (int col = 0; col < 6; col++) {
                 FileInputStream input = new FileInputStream(
-                        "<REPLACE_BY_PROJECT_PATH>/com.example.projektsew2025/question.png");
+                        "<REPLACE_BY_PROJECT_PATH>/projektsew2025/question.png");
                 Image image = new Image(input);
                 ImageView imageView = new ImageView(image);
                 imageView.setFitWidth(90);
@@ -56,7 +56,7 @@ public class AppController {
         String image = board.board[rowSelected][colSelected].value;
 
         FileInputStream imageFile = new FileInputStream(
-                "<REPLACE_BY_PROJECT_PATH>/memorygame/"+image+".png");
+                "<REPLACE_BY_PROJECT_PATH>/projektsew2025/"+image+".png");
 
         Image selectedImage = new Image(imageFile);
         ((ImageView)sourceComponent).setImage(selectedImage);
@@ -79,7 +79,7 @@ public class AppController {
                 int indexFirstCardInList = (firstCard.row * 6) + firstCard.col;
 
                 FileInputStream questionFile = new FileInputStream(
-                        "<REPLACE_BY_PROJECT_PATH>/memorygame/question.png");
+                        "<REPLACE_BY_PROJECT_PATH>/projektsew2025/question.png");
                 Image questionImage = new Image(questionFile);
                 ((ImageView)gameMatrix.getChildren().get(indexFirstCardInList)).setImage(questionImage);
 

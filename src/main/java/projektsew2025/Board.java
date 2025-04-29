@@ -1,4 +1,4 @@
-package com.example.projektsew2025;
+package projektsew2025;
 
 import java.util.Random;
 

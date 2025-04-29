@@ -1,4 +1,4 @@
-package com.example.projektsew2025;
+package projektsew2025;
 
 public class Cell {
     public String value;
